@@ -14,10 +14,10 @@ import org.springframework.context.annotation.Import;
 //		com.my.db.config.EntityServiceConfig.class,
 
 		//config@redis
-//		com.my.redis.config.RedisConfig.class,
-//		com.my.redis.config.RedisServiceConfig.class,
-//		com.my.redis.config.RedisMessageConfig.class,
-
+		com.annualParty.redis.config.RedisConfig.class,
+		com.annualParty.redis.config.RedisServiceConfig.class,
+		com.annualParty.redis.config.RedisMessageConfig.class,
+//
 })
 
 @ComponentScan(basePackages = {
